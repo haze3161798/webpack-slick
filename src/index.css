@@ -1,0 +1,33 @@
+.test-scss {
+  color: aquamarine;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-next {
+  right: 40px !important;
+}
+
+.slick-next::before {
+  color: gray !important;
+  font-size: 50px !important;
+}
+
+.slick-prev {
+  z-index: 1;
+  left: 10px !important;
+}
+
+.slick-prev::before {
+  color: gray !important;
+  font-size: 50px !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

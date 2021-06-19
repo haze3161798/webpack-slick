@@ -1,0 +1,31 @@
+.test-scss{
+  color:aquamarine
+}
+.flex{
+  display: flex
+}
+.slick-next{
+  right: 40px !important;
+  
+  &::before{
+    color: gray !important;
+    font-size: 50px !important;  
+   
+  }
+}
+
+.slick-prev{
+  z-index: 1;
+  left: 10px !important;
+  &::before{
+    color: gray !important;
+    font-size: 50px !important; 
+  }
+}
+.w-100{
+  width: 100%;
+}
+// .slick-arrow{
+//   background-color: gray !important;
+ 
+// }
